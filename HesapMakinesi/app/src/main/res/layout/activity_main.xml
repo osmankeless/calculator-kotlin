@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonDort"
+        android:layout_width="wrap_content"
+        android:layout_height="140sp"
+        android:text="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBir" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="150sp"
+        android:gravity="bottom"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBir"
+        android:layout_width="wrap_content"
+        android:layout_height="140sp"
+        android:text="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonYedi"
+        android:layout_width="wrap_content"
+        android:layout_height="140sp"
+        android:text="7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDort" />
+
+    <Button
+        android:id="@+id/buttonIki"
+        android:layout_width="wrap_content"
+        android:layout_height="140sp"
+        android:text="2"
+        app:layout_constraintStart_toEndOf="@+id/buttonBir"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonBes"
+        android:layout_width="wrap_content"
+        android:layout_height="140sp"
+        android:text="5"
+        app:layout_constraintStart_toEndOf="@+id/buttonDort"
+        app:layout_constraintTop_toBottomOf="@+id/buttonIki" />
+
+    <Button
+        android:id="@+id/buttonUc"
+        android:layout_width="wrap_content"
+        android:layout_height="140sp"
+        android:text="3"
+        app:layout_constraintStart_toEndOf="@+id/buttonIki"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonAlti"
+        android:layout_width="wrap_content"
+        android:layout_height="140sp"
+        android:text="6"
+        app:layout_constraintStart_toEndOf="@+id/buttonBes"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUc" />
+
+    <Button
+        android:id="@+id/buttonSekiz"
+        android:layout_width="wrap_content"
+        android:layout_height="140sp"
+        android:text="8"
+        app:layout_constraintStart_toEndOf="@+id/buttonYedi"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBes" />
+
+    <Button
+        android:id="@+id/buttonDokuz"
+        android:layout_width="wrap_content"
+        android:layout_height="140sp"
+        android:text="9"
+        app:layout_constraintStart_toEndOf="@+id/buttonSekiz"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAlti" />
+
+    <Button
+        android:id="@+id/buttonSifir"
+        android:layout_width="wrap_content"
+        android:layout_height="85sp"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonYedi" />
+
+    <Button
+        android:id="@+id/buttonAc"
+        android:layout_width="wrap_content"
+        android:layout_height="85sp"
+        android:text="AC"
+        app:layout_constraintStart_toEndOf="@+id/buttonSifir"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSekiz" />
+
+    <Button
+        android:id="@+id/buttonEsittir"
+        android:layout_width="0dp"
+        android:layout_height="85sp"
+        android:text="="
+        app:layout_constraintStart_toEndOf="@+id/buttonAc"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDokuz" />
+
+    <Button
+        android:id="@+id/buttonTopla"
+        android:layout_width="0dp"
+        android:layout_height="505sp"
+        android:text="+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonUc"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
